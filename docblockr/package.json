@@ -1,0 +1,63 @@
+{
+  "_from": "https://www.atom.io/api/packages/docblockr/versions/0.14.2/tarball",
+  "_id": "docblockr@0.14.2",
+  "_inBundle": false,
+  "_integrity": "sha512-fLeVrBul2CuIuYOvUInnhMHGCWmuu+lWSaFZXtEwwpKlu7pQlYA/m3drtv5z7EQ6SiAETw/phT2YNrwoLIN8zQ==",
+  "_location": "/docblockr",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/docblockr/versions/0.14.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/docblockr/versions/0.14.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/docblockr/versions/0.14.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/docblockr/versions/0.14.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/docblockr/versions/0.14.2/tarball",
+  "_shasum": "c53d8d7c3e2c4cfebbd90721d6e0e68fc25bbbe8",
+  "_spec": "https://www.atom.io/api/packages/docblockr/versions/0.14.2/tarball",
+  "_where": "C:\\Users\\Chris\\AppData\\Local\\Temp\\apm-install-dir-2021820-21076-po166p.tbmn",
+  "atomTestRunner": "@atom/mocha-test-runner",
+  "bugs": {
+    "url": "https://github.com/nikhilkalige/docblockr/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "snippets": {
+      "versions": {
+        "^0.1.0": "consumeSnippetsService"
+      }
+    }
+  },
+  "dependencies": {
+    "xregexp": "^4.2.4"
+  },
+  "deprecated": false,
+  "description": "A helper package for writing documentation",
+  "devDependencies": {
+    "@atom/mocha-test-runner": "^1.6.0",
+    "chai": "^4.2.0",
+    "js-yaml": "^3.13.1",
+    "semistandard": "^14.2.0"
+  },
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/nikhilkalige/docblockr#readme",
+  "license": "MIT",
+  "main": "./lib/docblockr.js",
+  "name": "docblockr",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhilkalige/docblockr.git"
+  },
+  "scripts": {
+    "lint": "semistandard",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "npm run lint:fix && atom --test spec"
+  },
+  "version": "0.14.2"
+}
